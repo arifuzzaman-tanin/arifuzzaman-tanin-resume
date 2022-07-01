@@ -1,0 +1,193 @@
+body {
+    padding-top: 3.2rem;
+    background: white;
+}
+
+
+/*
+    [GLOBAL FONT]
+*/
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+
+/*
+    [NAVIGATION LINK]
+*/
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+    /* Provide sufficient contrast against white background */
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+
+/*
+    [STICKY FOOTER]
+*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+.inline-icon {
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.font-20px {
+    font-size: 18px !important;
+    margin-top: 2px;
+}
+
+.ul-remove-bullets {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-display-inline {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+    /* Force table to not be like tables anymore */
+    #no-more-tables table,
+    #no-more-tables thead,
+    #no-more-tables tbody,
+    #no-more-tables th,
+    #no-more-tables td,
+    #no-more-tables tr {
+        display: block;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #no-more-tables thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    #no-more-tables tr {
+        border: 1px solid #ccc;
+    }
+    #no-more-tables td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align: left;
+    }
+    #no-more-tables td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+    }
+    /*
+	Label the data
+	*/
+    #no-more-tables td:before {
+        content: attr(data-title);
+    }
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.sm-device {
+    display: none;
+}
+
+@media (max-width:767px) {
+    .sm-device {
+        display: inline;
+    }
+    .lg-device {
+        display: none;
+    }
+    .navbar-collapse {
+        height: 100vh;
+    }
+}
+
+@media (max-width:767px) {
+    .sm-device {
+        display: inline;
+    }
+    .lg-device {
+        display: none;
+    }
+    .navbar-collapse {
+        height: 100vh;
+    }
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 53px;
+}
+
+.ul-remove-bullets {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.column-list {
+    columns: 300px;
+}
+
+.custom-scroll {
+    overflow-y: scroll;
+}
+
+.custom-scroll::-webkit-scrollbar {
+    width: 5px; /* width of the entire scrollbar */
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+    background: rgba(69, 90, 100, 0.08); /* color of the tracking area */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background-color: #ffc107; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid rgba(69, 90, 100, 0.08); /* creates padding around scroll thumb */
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 40%;
+    left: 0px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}

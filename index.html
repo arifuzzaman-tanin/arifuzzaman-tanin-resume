@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="aztanin.github.io/arifuzzaman softwareEngineer" name="generator">
+    <meta name="ompagename" content="arifuzzaman_tanin_software_engineer">
+    <meta name="description" content="Software Engineer - Arifuzzaman Tanin is a Software Engineer in Bangladesh">
+    <meta name="keywords"
+          content="Software Engineer  - ASP.NE, .NET Core,MVC 5, Web API 2, C#, Java, PHP, JavaScript, Windows Form Application,  Web Form Application,  Restful API,  Entity Framework,  ADO.NET,  Unit Test, Laravel,Codeigniter,Spring Boot,ORM,JQuery,Vue JS, T-SQL,MySQL,MSSQL Server, MariaDb,Repository Pattern,Design Pattern,MS SQL Server 2008/X R2 on a Windows Server platform,Git, Bit Bucket, SVN,Microservice,Ocelot,Event Driven Architecture (EDA),Rabit MQ,SignalR,MQTT,Scaling (horizontal & vertical),Power BI">
+    <meta name="author" content="arifuzzaman tanin">
+    <title>
+        arifuzzaman tanin | 5+ years of experience of building complex web & mobile applications for local
+        and international clients using different technology. Skills ASP.NE, .NET Core,MVC 5, Web API 2, C#, Java, PHP,
+        JavaScript, Windows Form Application, Web Form Application, Restful API, Entity Framework, ADO.NET, Unit Test,
+        Laravel,Codeigniter,Spring Boot,ORM,JQuery,Vue JS, T-SQL,MySQL,MSSQL Server, MariaDb,Repository Pattern,Design
+        Pattern,MS SQL Server 2008/X R2 on a Windows Server platform,Git, Bit Bucket, SVN,Microservice,Ocelot,Event
+        Driven Architecture (EDA),Rabit MQ,SignalR,MQTT,Scaling (horizontal & vertical),Power BI
+    </title>
+    <link rel="canonical" href="https://aztanin.github.io/arifuzzaman/">
+    <link href="./assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./assets/css/site.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+            integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-warning border-bottom fixed-top py-0 py-md-0">
+    <div class="container">
+        <a class="navbar-brand sf-2 fw-bold lg-device text-white" href="#">
+            ARIFUZZAMAN TANIN
+        </a>
+        <a class="navbar-brand sf-2 fw-bold sm-device text-center text-white" href="#">
+            ARIFUZZAMAN TANIN
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link btn btn-sm btn-outline-light rounded-pill border-0 fw-bold text-white"
+                   aria-current="page" href="#">
+                    <em class="inline-icon material-icons font-20px text-white">mail_outline</em> arifuzzaman.tanin@outlook.com
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div id="app">
+    <div class="overlay" v-if="isLoading">
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card mt-3 rounded-0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <ul class="ul-remove-bullets">
+                                    <li>
+                                        <p class="card-title text-dark fw-bold">{{ profile.name }}</p>
+                                    </li>
+                                    <li class=""><i class="inline-icon material-icons font-20px">my_location</i>
+                                        {{ profile.location }}
+                                    </li>
+                                    <li class=""><i class="inline-icon material-icons font-20px">alternate_email</i>
+                                        arifuzzaman.tanin@outlook.com
+                                    </li>
+                                    <li class=""><i class="inline-icon material-icons font-20px">phone</i>
+                                        +8801819543327
+                                    </li>
+                                </ul>
+                                <p class="mt-3 text-justify ">{{ profile.bio }}</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <img v-bind:src="profile.avatar_url" class="img-fluid" height="200"
+                                     width="200"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3 rounded-0">
+                    <p class="card-header text-uppercase text-dark fw-bold">Achivement / Certification</p>
+                    <ul class="ul-remove-bullets pt-3">
+                        <li>
+                            <p class="text-dark ps-2">
+                                <em class="inline-icon material-icons font-20px">chevron_right</em>
+                                IOT Certification (4 months trining under LICT, Bangladesh
+                                Govt.)
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-dark ps-2">
+                                <em class="inline-icon material-icons font-20px">chevron_right</em>
+                                National Hackathon Runners up 2014
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card mt-3 rounded-0">
+                    <p class="card-header text-uppercase text-dark fw-bold">My Skills</p>
+                    <div class="row ps-3 pe-3 pb-3">
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0">C#(ASP.NET, ASP.NET Core, Entity Framework)</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                     aria-valuemin="0" aria-valuemax="100">80%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0"> PHP(Laravel, Eloquent)</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                     aria-valuemin="0" aria-valuemax="100">80%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0"> API(Restfull, Rest API)</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                     aria-valuemin="0" aria-valuemax="100">80%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0"> JavaScript(Vue.js, JQuery, Angular)</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                     aria-valuemin="0" aria-valuemax="100">70%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0"> Database(MSSQL, MySQL)</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                     aria-valuemin="0" aria-valuemax="100">80%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0"> Version Control(Git)</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
+                                     aria-valuemin="0" aria-valuemax="100">60%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0"> Docker</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
+                                     aria-valuemin="0" aria-valuemax="100">60%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0"> Azure, AWS</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
+                                     aria-valuemin="0" aria-valuemax="100">60%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0"> Design Pattern</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                     aria-valuemin="0" aria-valuemax="100">70%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0"> HTML, CSS</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65"
+                                     aria-valuemin="0" aria-valuemax="100">65%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0"> Project Management</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                                     aria-valuemin="0" aria-valuemax="100">80%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0"> Competitive Programming</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
+                                     aria-valuemin="0" aria-valuemax="100">60%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <p class="mb-0"> Cache(Redis)</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                     aria-valuemin="0" aria-valuemax="100">70%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3 rounded-0">
+                    <p class="card-header text-uppercase text-dark fw-bold mb-3">Work Experiences</p>
+                </div>
+                <div class="card mt-3 rounded-0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <p class="card-title text-uppercase text-dark fw-bold">Exabyting Limited</p>
+                                <p>Software Engineer (02 July 2021 To Present)</p>
+                            </div>
+                        </div>
+                        <p>Responsibilities</p>
+                        <ul>
+                            <li>Coordinate with the Technical Director on current programming tasks</li>
+                            <li>Collaborate with other programmers to design and implement features.</li>
+                            <li>Quickly produce well-organized, optimized, and documented source code.</li>
+                            <li>Debug existing source code and polish feature sets.</li>
+                            <li>Create and document software tools required by artists or other developers.</li>
+                            <li>Protects operations by keeping information confidential.</li>
+                            <li>Contribute to technical design documentation.</li>
+                            <li>Work independently when required.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card mt-3 rounded-0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <p class="card-title text-uppercase text-dark fw-bold">Sim Solution Limited</p>
+                                <p>Software Engineer (01 Jan 2017 To 30 June 2021)</p>
+                            </div>
+                        </div>
+                        <p>Responsibilities</p>
+                        <ul>
+                            <li>Coordinate with the Technical Director on current programming tasks</li>
+                            <li>Collaborate with other programmers to design and implement features.</li>
+                            <li>Quickly produce well-organized, optimized, and documented source code.</li>
+                            <li>Debug existing source code and polish feature sets.</li>
+                            <li>Create and document software tools required by artists or other developers.</li>
+                            <li>Protects operations by keeping information confidential.</li>
+                            <li>Contribute to technical design documentation.</li>
+                            <li>Work independently when required.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card mt-3 rounded-0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <p class="card-title text-uppercase text-dark fw-bold">Primeasia University</p>
+                                <p>Software Engineer (06 Feb 2017 To 25 Oct 2017)</p>
+                            </div>
+                        </div>
+                        <p>Responsibilities</p>
+                        <ul>
+                            <li>Develops information systems by designing, developing, and installing software
+                                solutions.
+                            </li>
+                            <li>Determines operational feasibility by evaluating analysis, problem definition,
+                                requirements, solution development, and proposed solutions.
+                            </li>
+                            <li>Develops software solutions by studying information needs, conferring with
+                                users, and studying systems flow, data usage, and work processes.
+                            </li>
+                            <li>Investigates problem areas.</li>
+                            <li>Documents and demonstrates solutions by developing documentation, flowcharts,
+                                layouts, diagrams, charts, code comments and clear code
+                            </li>
+                            <li>Protects operations by keeping information confidential.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="rounded-0 sticky mt-3">
+                    <div class="card mb-2 rounded-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <em class="inline-icon material-icons text-muted mr-2"
+                                        style="font-size:65px;">description</em>
+                                </div>
+                                <div class="col-lg-10 pt-1">
+                                    <p class=" mb-0 text-uppercase text-dark fw-bold">ARIFUZZAMAN.pdf</p>
+                                    <small class="">Resume</small>
+                                </div>
+                            </div>
+                            <p class="mt-2">You can download my updated resume by clicking on the download button.</p>
+                            <div class="text-center mb-3">
+                                <a class="btn btn-outline-warning rounded-pill mt-3 w-100" target="_blank"
+                                   href="https://1drv.ms/u/s!AjFAUXs6_7DLaUHV4FZtuSS_qAo?e=cd5VIr">
+                                    Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card mt-3 rounded-0">
+                        <p class="card-header text-uppercase text-dark fw-bold">My Github Followers</p>
+                        <div class="custom-scroll" style="height: 400px;" v-if="!this.isLoading">
+                            <div class="container mt-3 d-flex justify-content-center" v-for='item in followers'
+                            >
+                                <div class="bg-light p-3 w-100">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <img :src="item.avatar_url" class="rounded w-100">
+                                        </div>
+                                        <div class="col-lg-6 pt-2">
+                                            <h4 class="mb-0 mt-0">{{item.login}}</h4> <span>Software Engineer</span>
+                                            <div class="button mt-2"><a
+                                                    :href="item.html_url" target="_blank"
+                                                    class="btn btn-sm btn-warning w-100">Follow</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="mt-5">
+        <div class="container">
+            <p class="mt-3 mb-3 rounded-0 card-header text-uppercase text-dark fw-bold mb-3">Projects</p>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card rounded-0 mb-3">
+                        <div class="card-body">
+                            <p class="card-title text-dark fw-bold text-truncate">TELEMEDICINE-(FRONTEND APP)</p>
+                            <p class="mt-0">It's a multi-vendor B2B, B2C e-commerce.</p>
+                            <ul class="ul-remove-bullets">
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        Vue.js (SPA)
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card rounded-0 mb-3">
+                        <div class="card-body">
+                            <p class="card-title text-dark fw-bold text-truncate">NEXT E-COMMERCE</p>
+                            <p class="mt-0">Provident health care is using this telemedicine system.</p>
+                            <ul class="ul-remove-bullets">
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        Laravel
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        Vue.js
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        MySQL
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        Redis
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card rounded-0 mb-3">
+                        <div class="card-body">
+                            <p class="card-title text-dark fw-bold text-truncate">EME RECORDS - BANGLADESH ARMY</p>
+                            <p class="mt-0">Bangladesh army is using this project. It’s an automation of Army
+                                management.</p>
+                            <ul class="ul-remove-bullets">
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        Technology : (hidden)
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card rounded-0 mb-3">
+                        <div class="card-body">
+                            <p class="card-title text-dark fw-bold text-truncate">UNIVERSITY MANAGEMENT SYSTEM -
+                                PRIMEASIA
+                                UNIVERSITY</p>
+                            <p class="mt-0">Primeasia University is using this UMS. It’s a reputed private university in
+                                Bangladesh.</p>
+                            <ul class="ul-remove-bullets">
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        ASP.NET
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        JavaScript
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        MSSQL
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card rounded-0 mb-3">
+                        <div class="card-body">
+                            <p class="card-title text-dark fw-bold text-truncate">HR & PAYROLL</p>
+                            <p class="mt-0">It's an HR and Payroll with a centralized biometric attendance system. Some
+                                renowned company is using this system.</p>
+                            <ul class="ul-remove-bullets">
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        ASP.NET
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        JavaScript
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        MSSQL
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        Fingerprint scanner (zkteco)
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card rounded-0 mb-3">
+                        <div class="card-body">
+                            <p class="card-title text-dark fw-bold text-truncate">VAT MANAGEMENT SYSTEM (VAT ACT 2012)
+                                ERP</p>
+                            <p class="mt-0">I have implemented the Vat Act 2012 in this project, and I've directly
+                                worked
+                                with the VAT team.</p>
+                            <ul class="ul-remove-bullets">
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        ASP.NET MVC
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        Web API 2
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        JavaScript
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        MSSQL
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card rounded-0 mb-3">
+                        <div class="card-body">
+                            <p class="card-title text-dark fw-bold text-truncate">REAL-ESTATE MARKETPLACE</p>
+                            <p class="mt-0">It's a property buy/sell /renting platform where real-estate companies /
+                                general
+                                people can enlist their property. It's a B2B & B2C marketplace.</p>
+                            <ul class="ul-remove-bullets">
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        ASP.NET MVC
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        Web API 2
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        JavaScript
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        MSSQL
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        Google Map Service
+                                    </div>
+                                </li>
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        Redis
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card rounded-0 mb-3">
+                        <div class="card-body">
+                            <p class="card-title text-dark fw-bold text-truncate">bKash Website</p>
+                            <p class="mt-0">bKash is a mobile financial service in Bangladesh operating under the
+                                authority
+                                of Bangladesh Bank as a subsidiary of BRAC Bank Limited.</p>
+                            <ul class="ul-remove-bullets">
+                                <li class="ul-display-inline">
+                                    <div class="badge bg-dark text-wrap">
+                                        Technology : (hidden)
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="mt-3 mb-3 rounded-0 card-header text-uppercase text-dark fw-bold mb-3">GITHUB PUBLIC
+                REPOSITORIES</p>
+
+            <div class="row" id="app-repository" v-if="!this.isLoading">
+                <div class="col-md-4" v-for="item in repositories" v-if='item.fork== false'>
+                    <div class="card rounded-0 mb-2 cursor-pointer" @click="openLink(item.html_url)">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <img :src="item.owner.avatar_url" class="rounded" height="30" width="30">
+                                </div>
+                                <div class="col-lg-10">
+                                    <p class="mb-0 mt-0 card-title text-dark fw-bold text-truncate text-uppercase">
+                                        {{item.name}}</p> <span>Created {{dateFormat(item.created_at)}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src=" ./assets/bootstrap/bootstrap.bundle.min.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            profile: [],
+            followers: [],
+            repositories: [],
+            isLoading: false,
+        },
+        methods: {
+            loadProfile: function () {
+                this.isLoading = true;
+                axios
+                    .get('https://api.github.com/users/aztanin')
+                    .then(response => (this.profile = response.data)).finally(() => {
+                    this.isLoading = false;
+                });
+            },
+            loadFollowers: function () {
+                this.isLoading = true;
+                axios
+                    .get('https://api.github.com/users/aztanin/followers')
+                    .then(response => (this.followers = response.data)).finally(() => {
+                    this.isLoading = false;
+                });
+            },
+            dateFormat: function (date) {
+                return moment(date).format('DD MMMM  YYYY');
+            },
+            loadRepositories: function () {
+                this.isLoading = true;
+                axios
+                    .get('https://api.github.com/users/aztanin/repos')
+                    .then(response => (this.repositories = response.data)).finally(() => {
+                    this.isLoading = false;
+                });
+            },
+            openLink(url){
+                window.open(url,'_blank');
+            }
+        },
+        created: function () {
+            this.loadProfile();
+            this.loadFollowers();
+            this.loadRepositories();
+        }
+    })
+</script>
+</body>
+
+</html>
