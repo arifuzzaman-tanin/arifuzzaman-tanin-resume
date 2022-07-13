@@ -609,7 +609,7 @@
             loadFollowers: function () {
                 this.isLoading = true;
                 axios
-                    .get('https://api.github.com/users/aztanin/followers')
+                    .get('https://api.github.com/users/arifuzzaman-tanin/followers')
                     .then(response => (this.followers = response.data)).finally(() => {
                     this.isLoading = false;
                 });
@@ -620,7 +620,7 @@
             loadRepositories: function () {
                 this.isLoading = true;
                 axios
-                    .get('https://api.github.com/users/aztanin/repos')
+                    .get('https://api.github.com/users/arifuzzaman-tanin/repos')
                     .then(response => (this.repositories = response.data)).finally(() => {
                     this.isLoading = false;
                 });
