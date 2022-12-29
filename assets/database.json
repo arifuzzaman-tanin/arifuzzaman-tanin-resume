@@ -1,0 +1,218 @@
+{
+   "profile":{
+      "name":"Arifuzzaman Tanin",
+      "address":"Dhaka, Bangladesh",
+      "email":"arifuzzaman.tanin@outlook.com",
+      "phone":"+8801819543327",
+      "bio":"Full-stack software engineer, currently working with C# (.Net & .Net Core) & JavaScript"
+   },
+   "achievements":[
+      "IOT Certification (4 months trining under LICT, Bangladesh Govt.)",
+      "HackerRank SQL (Advanced) Certificate",
+      "HackerRank Problem Solving (Intermediate)",
+      "HackerRank JavaScript (Intermediate) Certificate",
+      "HackerRank JavaScript (Basic) Certificate",
+      "National Hackathon Runners up 2014"
+   ],
+   "skills":[
+      {
+         "name":"C#(ASP.NET, ASP.NET Core, Entity Framework)",
+         "achieved":"80"
+      },
+      {
+         "name":"PHP(Laravel, Eloquent)",
+         "achieved":"80"
+      },
+      {
+         "name":"API(Restfull, Rest API)",
+         "achieved":"80"
+      },
+      {
+         "name":"Database(MSSQL, MySQL)",
+         "achieved":"80"
+      },
+      {
+         "name":"JavaScript(Vue.js, React,JQuery)",
+         "achieved":"70"
+      },
+      {
+         "name":"Docker",
+         "achieved":"60"
+      },
+      {
+         "name":"Azure, AWS",
+         "achieved":"60"
+      },
+      {
+         "name":"Design Pattern",
+         "achieved":"70"
+      },
+      {
+         "name":"HTML, CSS",
+         "achieved":"65"
+      },
+      {
+         "name":"Project Management",
+         "achieved":"80"
+      },
+      {
+         "name":"Competitive Programming",
+         "achieved":"80"
+      },
+      {
+         "name":"Cache(Redis)",
+         "achieved":"80"
+      },
+      {
+         "name":"Microservices",
+         "achieved":"80"
+      }
+   ],
+   "workExperiences":[
+      {
+         "company":"Skill Quotient Resources (Posting: Petronas)",
+         "position":"Software Engineer",
+         "jobType":"Contractual",
+         "duration":"16 Nov 2022 To Present",
+         "responsibilities":[
+            "Coordinate with the Technical Director on current programming tasks",
+            "Collaborate with other programmers to design and implement features",
+            "Quickly produce well-organized, optimized, and documented source code",
+            "Debug existing source code and polish feature sets",
+            "Create and document software tools required by artists or other developers",
+            "Protects operations by keeping information confidential",
+            "Contribute to technical design documentation",
+            "Work independently when required"
+         ]
+      },
+      {
+         "company":"Exabyting Limited",
+         "position":"Software Engineer",
+         "jobType":"Contractual",
+         "duration":"01 Jan 2017 To 15 Nov 2022",
+         "responsibilities":[
+            "Coordinate with the Technical Director on current programming tasks",
+            "Collaborate with other programmers to design and implement features",
+            "Quickly produce well-organized, optimized, and documented source code",
+            "Debug existing source code and polish feature sets",
+            "Create and document software tools required by artists or other developers",
+            "Protects operations by keeping information confidential",
+            "Contribute to technical design documentation",
+            "Work independently when required"
+         ]
+      },
+      {
+         "company":"Sim Solution Limited",
+         "position":"Software Engineer",
+         "jobType":"Fulltime",
+         "duration":"01 Jan 2017 To 30 June 2021",
+         "responsibilities":[
+            "Develops information systems by designing, developing, and installing software solutions",
+            "Determines operational feasibility by evaluating analysis, problem definition, requirements, solution development, and proposed solutions",
+            "Develops software solutions by studying information needs, conferring with users, and studying systems flow, data usage, and work processes",
+            "Investigates problem areas",
+            "Documents and demonstrates solutions by developing documentation, flowcharts, layouts, diagrams, charts, code comments and clear code",
+            "Protects operations by keeping information confidential"
+         ]
+      },
+      {
+         "company":"Primeasia University",
+         "position":"Software Engineer",
+         "jobType":"Fulltime",
+         "duration":"06 Feb 2017 To 25 Oct 2017",
+         "responsibilities":[
+            "Coordinate with the Technical Director on current programming tasks",
+            "Collaborate with other programmers to design and implement features",
+            "Quickly produce well-organized, optimized, and documented source code",
+            "Debug existing source code and polish feature sets",
+            "Create and document software tools required by artists or other developers",
+            "Protects operations by keeping information confidential",
+            "Contribute to technical design documentation",
+            "Work independently when required"
+         ]
+      }
+   ],
+   "projects":[
+      {
+         "name":"Telemedicine - (Frontend)",
+         "description":"Provident health care is using this telemedicine system",
+         "technology":[
+            "Vue JS"
+         ]
+      },
+      {
+         "name":"Next e-commerce",
+         "description":"It's a multi-vendor B2B, B2C e-commerce",
+         "technology":[
+            "Laravel",
+            "Vue JS",
+            "MySQL",
+            "Redis"
+         ]
+      },
+      {
+         "name":"EME Records (Bangladesh Army)",
+         "description":"Bangladesh army is using this project. It’s an automation of Army management",
+         "technology":[
+            "(hidden)"
+         ]
+      },
+      {
+         "name":"University Management System (Primeasia University)",
+         "description":"Primeasia University is using this UMS. It’s a reputed private university in Bangladesh",
+         "technology":[
+            "ASP.NET",
+            "JavaScript",
+            "MSSQL"
+         ]
+      },
+      {
+         "name":"HR & Payroll",
+         "description":"It's an HR and Payroll with a centralized biometric attendance system. Some renowned company is using this system",
+         "technology":[
+            "ASP.NET",
+            "JavaScript",
+            "MSSQL",
+            "Fingerprint scanner (zkteco)"
+         ]
+      },
+      {
+         "name":"Vat Management System",
+         "description":"I have implemented the Vat Act 2012 in this project, and I've directly worked with the VAT team",
+         "technology":[
+            "ASP.NET MVC",
+            "Web API 2",
+            "JavaScript",
+            "MSSQL"
+         ]
+      },
+      {
+         "name":"Real-Estate Marketplace",
+         "description":"It's a property buy/sell /renting platform where real-estate companies / general people can enlist their property. It's a B2B & B2C marketplace",
+         "technology":[
+            "ASP.NET MVC",
+            "Web API 2",
+            "JavaScript",
+            "MSSQL",
+            "Redis",
+            "Google Map Service"
+         ]
+      },
+      {
+         "name":"bKash Website",
+         "description":"bKash is a mobile financial service in Bangladesh operating under the authority of Bangladesh Bank as a subsidiary of BRAC Bank Limited",
+         "technology":[
+            "(hidden)"
+         ]
+      },
+      {
+         "name":"Concept Factory",
+         "description":"This application is for Petronas. Petronas is the largest oil and gas company in Malaysia",
+         "technology":[
+            ".NET Core API",
+            "MSSQL",
+            "Microservice"
+         ]
+      }
+   ]
+}
