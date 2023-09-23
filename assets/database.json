@@ -72,19 +72,16 @@
    ],
    "workExperiences": [
       {
-         "company": "Skill Quotient Resources (Posting: Petronas)",
+         "company": "Skill Quotient (on boarded at PETRONAS - it’s a largest oil & gas company in Malaysia)",
          "position": "Software Engineer",
          "jobType": "Contractual",
-         "duration": "16 Nov 2022 To Present",
+         "duration": "Nov 2022 To Present",
          "responsibilities": [
-            "Coordinate with the Technical Director on current programming tasks",
-            "Collaborate with other programmers to design and implement features",
-            "Quickly produce well-organized, optimized, and documented source code",
-            "Debug existing source code and polish feature sets",
-            "Create and document software tools required by artists or other developers",
-            "Protects operations by keeping information confidential",
-            "Contribute to technical design documentation",
-            "Work independently when required"
+            "Backend Engineer: Contributing to the Concept Factory project.",
+            "Project: Microservices-based, leveraging technologies like .NET, MSSQL, Cosmos, Azure cash service, and more.",
+            "Purpose: Primarily focuses on generating concepts and analyzing the cost of oil and gas extraction from mines.",
+            "Collaboration: Coordinating with the Technical Director for programming tasks and collaborating with fellow programmers to design and implement features.",
+            "R&D Team: Additionally, involved in the Research and Development team."
          ]
       },
       {
