@@ -91,15 +91,8 @@
                     </div>
                     <div class="card mt-3 rounded-0">
                         <p class="card-header text-uppercase text-dark fw-bold">My Skills</p>
-                        <div class="row ps-3 pe-3 pb-3">
-                            <div class="col-md-6 mt-3" v-for="item in database.skills">
-                                <p class="mb-0">{{item.name}}</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                                        aria-valuemin="0" aria-valuemax="100">80%
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="row ps-3 pe-3 pb-3" id="skill">
+                            
                         </div>
                     </div>
                     <div class="mt-3 rounded-0">
@@ -520,7 +513,25 @@
                         .get('https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/database.json')
                         .then(response => (this.database = response.data)).finally(() => {
                             this.isLoading = false;
+                            this.renderSkills();
                         });
+                },
+                renderSkills: function(){
+                    var skills = ``;
+                    this.database.skills.forEach(element => {
+                        var skill = `
+                                <div class="col-md-6 mt-3">
+                                    <p class="mb-0"> `+element.name+`</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: `+element.achieved+`%;" aria-valuenow="60"
+                                            aria-valuemin="0" aria-valuemax="100">`+element.achieved+`%
+                                        </div>
+                                    </div>
+                                </div>
+                        `;
+                        skills += skill; 
+                    });
+                    document.getElementById("skill").innerHTML = skills;
                 },
                 openLink(url) {
                     window.open(url, '_blank');
