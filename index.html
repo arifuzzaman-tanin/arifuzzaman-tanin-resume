@@ -104,11 +104,12 @@
                                 <div class="col-md-8">
                                     <p class="card-title text-uppercase text-dark fw-bold">{{item.company.name}}</p>
                                     <p>{{item.position}} ({{item.duration}}) - {{item.jobType}}</p>
+                                    <p>{{item.location}}</p>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="row">
-                                        <div class="col-4" v-for='company in item.company.contact'>
-                                            <a target="_blank" v-bind:href="company.website"><img v-bind:src="company.logo" class="img-thumbnail" height="200" /></a>
+                                    <div class="row gap-1">
+                                        <div class="col-4 border border-secondary" v-for='company in item.company.contact'>
+                                            <a target="_blank" v-bind:href="company.website"><img v-bind:src="company.logo" class="w-100"/></a>
                                         </div>
                                     </div>
                                 </div>

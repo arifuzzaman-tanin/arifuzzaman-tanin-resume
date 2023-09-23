@@ -170,15 +170,25 @@
    ],
    "projects": [
       {
+         "name": "Concept Factory (CF++)",
+         "description": "Currently developing a mission-critical application for Petronas, Malaysia's premier oil and gas company, with the primary goal of analyzing mining costs. This ongoing project involves the implementation of advanced tools for real-time cost assessment, resource allocation optimization, and predictive maintenance, aimed at helping Petronas make informed decisions and maximize cost-efficiency in their mining operations.",
+         "technology": [
+            ".NET Core API",
+            "MSSQL",
+            "Microservice",
+            "Azure"
+         ]
+      },
+      {
          "name": "Telemedicine - (Frontend)",
-         "description": "Provident health care is using this telemedicine system",
+         "description": "Developed and implemented secure, compliant features for Provident Health Care, enabling remote consultations, secure medical data sharing, e-prescriptions, and remote monitoring. These essential functionalities significantly reduced the need for in-person visits, enhancing overall patient experience and healthcare accessibility.",
          "technology": [
             "Vue JS"
          ]
       },
       {
          "name": "Next e-commerce",
-         "description": "It's a multi-vendor B2B, B2C e-commerce",
+         "description": "Contributed to the development of Next e-commerce, an online platform with key features including user-friendly product navigation, secure payment processing, inventory management, and an intuitive shopping cart system, optimizing the online shopping experience for customers.",
          "technology": [
             "Laravel",
             "Vue JS",
@@ -190,21 +200,25 @@
          "name": "EME Records (Bangladesh Army)",
          "description": "Bangladesh army is using this project. It’s an automation of Army management",
          "technology": [
-            "(hidden)"
+            "ASP.NET MVC",
+            "Web API 2",
+            "JavaScript",
+            "MSSQL"
          ]
       },
       {
          "name": "University Management System (Primeasia University)",
-         "description": "Primeasia University is using this UMS. It’s a reputed private university in Bangladesh",
+         "description": "Developed a University Management System for Primeasia University, incorporating essential features such as student enrollment and records management, course scheduling, faculty and staff administration, automated grading, and academic performance tracking. Designed and implemented a user-friendly portal customized for Primeasia University, fostering efficient communication and streamlined academic operations within the institution.",
          "technology": [
-            "ASP.NET",
+            "ASP.NET MVC",
+            "Web API 2",
             "JavaScript",
             "MSSQL"
          ]
       },
       {
          "name": "HR & Payroll",
-         "description": "It's an HR and Payroll with a centralized biometric attendance system. Some renowned company is using this system",
+         "description": "Contributed to the development of an HR & Payroll system with core features including employee information management, biometric attendance tracking, leave management, automated payroll processing, and tax compliance. Designed and implemented a user-friendly interface for HR professionals, ensuring accurate and efficient HR and payroll operations, while maintaining compliance with regulatory requirements.",
          "technology": [
             "ASP.NET",
             "JavaScript",
@@ -214,7 +228,7 @@
       },
       {
          "name": "Vat Management System",
-         "description": "I have implemented the Vat Act 2012 in this project, and I've directly worked with the VAT team",
+         "description": "Designed and developed a Vat Management System with a focus on automated tax calculation, efficient invoice processing, real-time compliance monitoring, and reporting capabilities. Implemented features to streamline tax filing, reduce errors, and ensure accurate financial records for businesses, optimizing tax management processes.",
          "technology": [
             "ASP.NET MVC",
             "Web API 2",
@@ -224,7 +238,7 @@
       },
       {
          "name": "Real-Estate Marketplace",
-         "description": "It's a property buy/sell /renting platform where real-estate companies / general people can enlist their property. It's a B2B & B2C marketplace",
+         "description": "Contributed to the development of a Real-Estate Marketplace with key features, including property listing and search functionality, user profiles with saved searches, and real-time notifications. Implemented a user-friendly interface for buyers and sellers, optimizing the property buying and selling experience.",
          "technology": [
             "ASP.NET MVC",
             "Web API 2",
@@ -238,16 +252,10 @@
          "name": "bKash Website",
          "description": "bKash is a mobile financial service in Bangladesh operating under the authority of Bangladesh Bank as a subsidiary of BRAC Bank Limited",
          "technology": [
-            "(hidden)"
-         ]
-      },
-      {
-         "name": "Concept Factory",
-         "description": "This application is for Petronas. Petronas is the largest oil and gas company in Malaysia",
-         "technology": [
-            ".NET Core API",
-            "MSSQL",
-            "Microservice"
+            "Laravel",
+            "Vue JS",
+            "MySQL",
+            "Redis"
          ]
       }
    ]
