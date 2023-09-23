@@ -81,41 +81,10 @@
                             </span>
                         </p>
                         <ul class="ul-remove-bullets pt-3">
-                            <li>
+                            <li v-for="item in database.achievements">
                                 <p class="text-dark ps-2">
                                     <em class="inline-icon material-icons font-20px">chevron_right</em>
-                                    IOT Certification (4 months trining under LICT, Bangladesh
-                                    Govt.)
-                                </p>
-                            </li>
-                            <li>
-                                <p class="text-dark ps-2">
-                                    <em class="inline-icon material-icons font-20px">chevron_right</em>
-                                    HackerRank SQL (Advanced) Certificate
-                                </p>
-                            </li>
-                            <li>
-                                <p class="text-dark ps-2">
-                                    <em class="inline-icon material-icons font-20px">chevron_right</em>
-                                    HackerRank Problem Solving (Intermediate)
-                                </p>
-                            </li>
-                            <li>
-                                <p class="text-dark ps-2">
-                                    <em class="inline-icon material-icons font-20px">chevron_right</em>
-                                    HackerRank JavaScript (Intermediate) Certificate
-                                </p>
-                            </li>
-                            <li>
-                                <p class="text-dark ps-2">
-                                    <em class="inline-icon material-icons font-20px">chevron_right</em>
-                                    HackerRank JavaScript (Basic) Certificate
-                                </p>
-                            </li>
-                            <li>
-                                <p class="text-dark ps-2">
-                                    <em class="inline-icon material-icons font-20px">chevron_right</em>
-                                    National Hackathon Runners up 2014
+                                    {{item}}
                                 </p>
                             </li>
                         </ul>
@@ -123,114 +92,10 @@
                     <div class="card mt-3 rounded-0">
                         <p class="card-header text-uppercase text-dark fw-bold">My Skills</p>
                         <div class="row ps-3 pe-3 pb-3">
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0">C#(ASP.NET, ASP.NET Core, MVC, API, Entity Framework)</p>
+                            <div class="col-md-6 mt-3" v-for="item in database.skills">
+                                <p class="mb-0">{{item.name}}</p>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                                        aria-valuemin="0" aria-valuemax="100">80%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> PHP(Laravel, Eloquent)</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                                        aria-valuemin="0" aria-valuemax="100">80%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> API(Restfull, Rest API)</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                                        aria-valuemin="0" aria-valuemax="100">80%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> JavaScript(Vue.js, JQuery, Angular)</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
-                                        aria-valuemin="0" aria-valuemax="100">70%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> Database(MSSQL, MySQL)</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                                        aria-valuemin="0" aria-valuemax="100">80%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> Version Control(Git)</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
-                                        aria-valuemin="0" aria-valuemax="100">60%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> Docker</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
-                                        aria-valuemin="0" aria-valuemax="100">60%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> Azure, AWS</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
-                                        aria-valuemin="0" aria-valuemax="100">60%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> Design Pattern</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
-                                        aria-valuemin="0" aria-valuemax="100">70%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> HTML, CSS</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65"
-                                        aria-valuemin="0" aria-valuemax="100">65%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> Project Management</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                                        aria-valuemin="0" aria-valuemax="100">80%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> Competitive Programming</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
-                                        aria-valuemin="0" aria-valuemax="100">60%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> Cache(Redis)</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
-                                        aria-valuemin="0" aria-valuemax="100">70%
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-3">
-                                <p class="mb-0"> Microservices</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="70"
                                         aria-valuemin="0" aria-valuemax="100">80%
                                     </div>
                                 </div>
@@ -619,7 +484,7 @@
                 repositories: [],
                 isLoading: false,
                 gitHubUserName: 'arifuzzaman-tanin',
-                achievements:[]
+                database:[],
             },
             methods: {
                 loadProfile: function () {
@@ -649,6 +514,14 @@
                             this.isLoading = false;
                         });
                 },
+                loadisDatabase: function () {
+                    this.isLoading = true;
+                    axios
+                        .get('https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/database.json')
+                        .then(response => (this.database = response.data)).finally(() => {
+                            this.isLoading = false;
+                        });
+                },
                 openLink(url) {
                     window.open(url, '_blank');
                 }
@@ -657,6 +530,7 @@
                 this.loadProfile();
                 this.loadFollowers();
                 this.loadRepositories();
+                this.loadisDatabase();
             }
         })
     </script>

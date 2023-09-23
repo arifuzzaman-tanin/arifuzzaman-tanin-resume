@@ -17,7 +17,11 @@
    ],
    "skills": [
       {
-         "name": "C#(ASP.NET, ASP.NET Core, Entity Framework)",
+         "name": "C#(ASP.NET, ASP.NET Core, MVC, API, Entity Framework)",
+         "achieved": "80"
+      },
+      {
+         "name": "Database(MSSQL, MySQL, Postgres,Oracle ,NoSQL)",
          "achieved": "80"
       },
       {
@@ -29,11 +33,7 @@
          "achieved": "80"
       },
       {
-         "name": "Database(MSSQL, MySQL)",
-         "achieved": "80"
-      },
-      {
-         "name": "JavaScript(Vue.js, React,JQuery)",
+         "name": "JavaScript(Vue.js, JQuery, Angular)",
          "achieved": "70"
       },
       {
@@ -43,6 +43,10 @@
       {
          "name": "Azure, AWS",
          "achieved": "60"
+      },
+      {
+         "name": "Version Control(Git)",
+         "achieved": "80"
       },
       {
          "name": "Design Pattern",
