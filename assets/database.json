@@ -72,10 +72,23 @@
    ],
    "workExperiences": [
       {
-         "company": "Skill Quotient (on boarded at PETRONAS - it’s a largest oil & gas company in Malaysia)",
+         "company": {
+            "name": "SKILL QUOTIENT RESOURCES SDN BHD (ON BOARDED AT PETRONAS - IT’S A LARGEST OIL & GAS COMPANY IN MALAYSIA)",
+            "contact": [
+               {
+                  "website": "https://skillquotient.net/",
+                  "logo": ""
+               },
+               {
+                  "website": "https://www.petronas.com/",
+                  "logo": ""
+               }
+            ]
+         },
          "position": "Software Engineer",
          "jobType": "Contractual",
-         "duration": "Nov 2022 To Present",
+         "duration": "November 2022 To Present",
+         "location": "Malaysia - Remote",
          "responsibilities": [
             "Backend Engineer: Contributing to the Concept Factory project.",
             "Project: Microservices-based, leveraging technologies like .NET, MSSQL, Cosmos, Azure cash service, and more.",
@@ -85,49 +98,73 @@
          ]
       },
       {
-         "company": "Exabyting Limited",
+         "company": {
+            "name": "EXABYTING LIMITED (ON BOARDED AT BKASH- IT’S A LARGEST FINTECH COMPANY IN BANGLADESH)",
+            "contact": [
+               {
+                  "website": "https://exabyting.com/",
+                  "logo": ""
+               },
+               {
+                  "website": "https://www.bkash.com/en",
+                  "logo": ""
+               }
+            ]
+         },
          "position": "Software Engineer",
          "jobType": "Contractual",
-         "duration": "01 Jan 2017 To 15 Nov 2022",
+         "duration": "July 2021 To Nov 2022",
+         "location": "Bangladesh - Remote",
          "responsibilities": [
-            "Coordinate with the Technical Director on current programming tasks",
-            "Collaborate with other programmers to design and implement features",
-            "Quickly produce well-organized, optimized, and documented source code",
-            "Debug existing source code and polish feature sets",
-            "Create and document software tools required by artists or other developers",
-            "Protects operations by keeping information confidential",
-            "Contribute to technical design documentation",
-            "Work independently when required"
+            "Organization: bKash Limited - A prominent bank-led mobile financial service provider in Bangladesh.",
+            "Role: Full-stack Developer within the solution engineering team.",
+            "Telemedicine System (Provident Health Care): Developed a cutting-edge telemedicine platform, enabling remote medical consultations and efficient healthcare delivery.",
+            "Achievement: Successfully developed a fintech internal application employing a diverse set of technologies, including .NET, MSSQL, PHP (Laravel), MySQL, Cache (Redis), HTML, CSS, and JavaScript (Vue JS, jQuery, Vanilla JavaScript)."
          ]
       },
       {
-         "company": "Sim Solution Limited",
+         "company": {
+            "name": "SIM SOLUTION LIMITED",
+            "contact": [
+               {
+                  "website": "#",
+                  "logo": ""
+               }
+            ]
+         },
          "position": "Software Engineer",
          "jobType": "Fulltime",
-         "duration": "01 Jan 2017 To 30 June 2021",
+         "duration": "October 2017 To June 2021",
+         "location": "Bangladesh",
          "responsibilities": [
-            "Develops information systems by designing, developing, and installing software solutions",
-            "Determines operational feasibility by evaluating analysis, problem definition, requirements, solution development, and proposed solutions",
-            "Develops software solutions by studying information needs, conferring with users, and studying systems flow, data usage, and work processes",
-            "Investigates problem areas",
-            "Documents and demonstrates solutions by developing documentation, flowcharts, layouts, diagrams, charts, code comments and clear code",
-            "Protects operations by keeping information confidential"
+            "E-commerce and Real Estate Software: Designed and developed software solutions catering to the unique requirements of e-commerce and real estate industries.",
+            "Human Resource Software: Created a comprehensive human resource software system to streamline HR processes and enhance workforce management.",
+            "EME Records (Digital Document Archiving): Developed a digital document archiving system, to ensure secure storage and easy retrieval of essential records.",
+            "Technologies Used: .NET, MSSQL, Cache (Redis), JavaScript, HTML, CSS, and various other tools."
          ]
       },
       {
-         "company": "Primeasia University",
+         "company": {
+            "name": "PRIMEASIA UNIVERSITY",
+            "contact": [
+               {
+                  "website": "https://www.primeasia.edu.bd/",
+                  "logo": ""
+               }
+            ]
+         },
          "position": "Software Engineer",
          "jobType": "Fulltime",
-         "duration": "06 Feb 2017 To 25 Oct 2017",
+         "duration": "February 2017 To October 2017",
+         "location": "Bangladesh",
          "responsibilities": [
-            "Coordinate with the Technical Director on current programming tasks",
-            "Collaborate with other programmers to design and implement features",
-            "Quickly produce well-organized, optimized, and documented source code",
-            "Debug existing source code and polish feature sets",
-            "Create and document software tools required by artists or other developers",
-            "Protects operations by keeping information confidential",
-            "Contribute to technical design documentation",
-            "Work independently when required"
+            "Developed a university management system.",
+            "System was created for Primeasia University.",
+            "Student information management.",
+            "Course and curriculum management.",
+            "Faculty and staff administration.",
+            "Academic and financial reporting capabilities.            ",
+            "Used .NET, MSSQL, JavaScript, HTML, CSS and other technologies to build the system."
          ]
       }
    ],
