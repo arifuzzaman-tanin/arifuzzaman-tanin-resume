@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="aztanin.github.io/arifuzzaman softwareEngineer" name="generator">
+    <meta name="ompagename" content="arifuzzaman_tanin_software_engineer">
+    <meta name="description" content="Software Engineer - Arifuzzaman Tanin is a Software Engineer in Bangladesh">
+    <meta name="keywords"
+        content="Software Engineer  - ASP.NE, .NET Core,MVC 5, Web API 2, C#, Java, PHP, JavaScript, Windows Form Application,  Web Form Application,  Restful API,  Entity Framework,  ADO.NET,  Unit Test, Laravel,Codeigniter,Spring Boot,ORM,JQuery,Vue JS, T-SQL,MySQL,MSSQL Server, MariaDb,Repository Pattern,Design Pattern,MS SQL Server 2008/X R2 on a Windows Server platform,Git, Bit Bucket, SVN,Microservice,Ocelot,Event Driven Architecture (EDA),Rabit MQ,SignalR,MQTT,Scaling (horizontal & vertical),Power BI">
+    <meta name="author" content="arifuzzaman tanin">
+    <title>
+        arifuzzaman tanin | 6.5+ years of experience of building complex web & mobile applications for local
+        and international clients using different technology. Skills ASP.NE, .NET Core,MVC 5, Web API 2, C#, Java, PHP,
+        JavaScript, Windows Form Application, Web Form Application, Restful API, Entity Framework, ADO.NET, Unit Test,
+        Laravel,Codeigniter,Spring Boot,ORM,JQuery,Vue JS, T-SQL,MySQL,MSSQL Server, MariaDb,Repository Pattern,Design
+        Pattern,MS SQL Server 2008/X R2 on a Windows Server platform,Git, Bit Bucket, SVN,Microservice,Ocelot,Event
+        Driven Architecture (EDA),Rabit MQ,SignalR,MQTT,Scaling (horizontal & vertical),Power BI
+    </title>
+    <link rel="canonical" href="https://aztanin.github.io/arifuzzaman/">
+    <link href="./assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./assets/css/site.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+    <div id="app">
+        <div class="overlay" v-if="isLoading">
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card mt-3 rounded-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <ul class="ul-remove-bullets">
+                                        <li>
+                                            <p class="card-title text-dark fw-bold">{{ profile.name }}</p>
+                                        </li>
+                                        <li class=""><i class="inline-icon material-icons font-20px">my_location</i>
+                                            {{ profile.location }}
+                                        </li>
+                                    </ul>
+                                    <p class="mt-3 text-justify ">{{ profile.bio }}</p>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <img v-bind:src="profile.avatar_url" class="img-fluid" height="200" width="200" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3 rounded-0 bg-primary">
+                        <p class="card-header text-uppercase text-white fw-bold mb-3">
+                            GITHUB PUBLICREPOSITORIES
+                        </p>
+                    </div>
+    
+                    <div class="row" id="app-repository" v-if="!this.isLoading">
+                        <div class="col-md-4" v-for="item in repositories" v-if='item.fork== false'>
+                            <div class="card rounded-0 mb-2 cursor-pointer" @click="openLink(item.html_url)">
+                                <div class="card-body">
+                                    <p class="mb-0 mt-0 card-title text-dark fw-bold text-truncate text-uppercase">
+                                        {{item.name}}</p>
+                                </div>
+                                <div class="card-footer border-0">
+                                    <small class="text-body-secondary">Created {{dateFormat(item.created_at)}}</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="rounded-0 sticky mt-3">
+                        <div class="card mt-3 rounded-0">
+                            <p class="card-header text-uppercase text-dark fw-bold">My Github Followers</p>
+                            <div class="custom-scroll card-body" style="height: 400px;" v-if="!this.isLoading">
+                                <div class="container mt-3 d-flex justify-content-center" v-for='item in followers'>
+                                    <div class="bg-light w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <img :src="item.avatar_url" class="rounded w-100">
+                                            </div>
+                                            <div class="col-lg-6 pt-2">
+                                                <h4 class="mb-0 mt-0">{{item.login}}</h4> <span>Software Engineer</span>
+                                                <div class="button mt-2"><a :href="item.html_url"
+                                                        class="btn btn-sm btn-primary w-100">Github</a></div>
+                                                        <div class="button mt-2"><a :href="profilePage+ '?param=' +item.login"
+                                                            class="btn btn-sm btn-primary w-100">Profile</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3 rounded-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="ul-remove-bullets">
+                                        <li>
+                                            <p class="card-title text-dark fw-bold">Arifuzzaman Tanin</p>
+                                        </li>
+                                        <li class=""><i class="inline-icon material-icons font-20px">my_location</i>
+                                            Toronto, Canada
+                                        </li>
+                                        <li class=""><i class="inline-icon material-icons font-20px">alternate_email</i>
+                                            arifuzzaman.tanin@outlook.com
+                                        </li>
+                                        <li class=""><i class="inline-icon material-icons font-20px">phone</i>
+                                            +1 (437) 460-9212 (WhatsApp)
+                                        </li>
+                                    </ul>
+                                    <p class="mt-3 text-justify ">
+                                        Experienced Full-Stack Engineer (6.5+ Years) | Expertise in .NET, PHP, and JavaScript | Proficient in Algorithmic Coding
+                                    </p>
+
+                                    <div class="button mt-2"><a href="index.html"
+                                        class="btn btn-sm btn-primary w-100">Profile</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src=" ./assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                profile: [],
+                followers: [],
+                repositories: [],
+                isLoading: false,
+                gitHubUserName: 'arifuzzaman-tanin',
+                database: [],
+                profilePage:'profile.html'
+            },
+            methods: {
+                loadProfile: function () {
+                    this.isLoading = true;
+                    axios
+                        .get('https://api.github.com/users/' + this.gitHubUserName)
+                        .then(response => (this.profile = response.data)).finally(() => {
+                            this.isLoading = false;
+                        });
+                },
+                loadFollowers: function () {
+                    this.isLoading = true;
+                    axios
+                        .get('https://api.github.com/users/' + this.gitHubUserName + '/followers')
+                        .then(response => (this.followers = response.data)).finally(() => {
+                            this.isLoading = false;
+                        });
+                },
+                dateFormat: function (date) {
+                    return moment(date).format('DD MMMM  YYYY');
+                },
+                loadRepositories: function () {
+                    this.isLoading = true;
+                    axios
+                        .get('https://api.github.com/users/' + this.gitHubUserName + '/repos')
+                        .then(response => (this.repositories = response.data)).finally(() => {
+                            this.isLoading = false;
+                        });
+                },
+                setProfile: function () {
+                    var url_string = location.href;
+                    var url = new URL(url_string);
+                    var c = url.searchParams.get("param");
+                    this.gitHubUserName = c;
+                    console.log(c);
+                },
+                openLink(url) {
+                    window.open(url, '_blank');
+                }
+            },
+            created: function () {
+                this.setProfile();
+                this.loadProfile();
+                this.loadFollowers();
+                this.loadRepositories();
+            }
+        })
+    </script>
+</body>
+
+</html>

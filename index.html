@@ -155,34 +155,42 @@
                             <div class="card-body">
                                 <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
                                     <div class="carousel-inner">
-                                      <div class="carousel-item active">
-                                        <img src="https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/certificates/SQL-Advanced.png" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/certificates/Rest-API-Intermediate.png" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/certificates/Problem-Solving-Intermediate.png" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/certificates/JavaScript-Intermediate.png" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/certificates/JavaScript-Basic.png" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/certificates/IOT-Certificate.jpg" class="d-block w-100" alt="...">
-                                      </div>
+                                        <div class="carousel-item active">
+                                            <img src="https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/certificates/SQL-Advanced.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/certificates/Rest-API-Intermediate.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/certificates/Problem-Solving-Intermediate.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/certificates/JavaScript-Intermediate.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/certificates/JavaScript-Basic.png"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/certificates/IOT-Certificate.jpg"
+                                                class="d-block w-100" alt="...">
+                                        </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Previous</span>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Next</span>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
                                     </button>
-                                  </div>
+                                </div>
                             </div>
                         </div>
 
@@ -197,8 +205,10 @@
                                             </div>
                                             <div class="col-lg-6 pt-2">
                                                 <h4 class="mb-0 mt-0">{{item.login}}</h4> <span>Software Engineer</span>
-                                                <div class="button mt-2"><a :href="item.html_url" target="_blank"
-                                                        class="btn btn-sm btn-primary w-100">Follow</a></div>
+                                                <div class="button mt-2"><a :href="item.html_url"
+                                                        class="btn btn-sm btn-primary w-100">Github</a></div>
+                                                        <div class="button mt-2"><a :href="profilePage+ '?param=' +item.login"
+                                                            class="btn btn-sm btn-primary w-100">Profile</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -269,6 +279,7 @@
                 isLoading: false,
                 gitHubUserName: 'arifuzzaman-tanin',
                 database: [],
+                profilePage:'profile.html'
             },
             methods: {
                 loadProfile: function () {
