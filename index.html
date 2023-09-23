@@ -59,7 +59,7 @@
                                             arifuzzaman.tanin@outlook.com
                                         </li>
                                         <li class=""><i class="inline-icon material-icons font-20px">phone</i>
-                                            {{database.profile.phone}} (WhatsApp)
+                                            +1 (437) 460-9212 (WhatsApp)
                                         </li>
                                     </ul>
                                     <p class="mt-3 text-justify ">{{ profile.bio }}</p>
@@ -101,11 +101,19 @@
                     <div class="card mt-3 rounded-0" v-for='item in database.workExperiences'>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-10">
+                                <div class="col-md-8">
                                     <p class="card-title text-uppercase text-dark fw-bold">{{item.company.name}}</p>
                                     <p>{{item.position}} ({{item.duration}}) - {{item.jobType}}</p>
                                 </div>
+                                <div class="col-md-4">
+                                    <div class="row">
+                                        <div class="col-4" v-for='company in item.company.contact'>
+                                            <a target="_blank" v-bind:href="company.website"><img v-bind:src="company.logo" class="img-thumbnail" height="200" /></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            
                             <p>Responsibilities</p>
                             <ul>
                                 <li v-for='responsibility in item.responsibilities'>{{responsibility}}</li>
