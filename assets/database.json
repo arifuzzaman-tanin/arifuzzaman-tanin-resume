@@ -14,7 +14,7 @@
    ],
    "skills": [
       {
-         "name": "C#(ASP.NET, ASP.NET Core, MVC, API, Entity Framework)",
+         "name": "C#(ASP.NET, ASP.NET Core)",
          "achieved": "80"
       },
       {
@@ -26,7 +26,7 @@
          "achieved": "80"
       },
       {
-         "name": "API(Restfull, Rest API)",
+         "name": "MVC, API(Restfull, Rest API)",
          "achieved": "80"
       },
       {
