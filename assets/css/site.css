@@ -176,7 +176,7 @@ th {
 }
 
 .custom-scroll::-webkit-scrollbar-thumb {
-    background-color: #0366d6;; /* color of the scroll thumb */
+    background-color: black;; /* color of the scroll thumb */
     border-radius: 20px; /* roundness of the scroll thumb */
     border: 3px solid rgba(69, 90, 100, 0.08); /* creates padding around scroll thumb */
 }
@@ -191,3 +191,5 @@ th {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
+
+
