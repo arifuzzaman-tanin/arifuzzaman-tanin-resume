@@ -186,10 +186,15 @@
          ]
       },
       {
-         "name": "Telemedicine - (Frontend)",
-         "description": "Developed and implemented secure, compliant features for Provident Health Care, enabling remote consultations, secure medical data sharing, e-prescriptions, and remote monitoring. These essential functionalities significantly reduced the need for in-person visits, enhancing overall patient experience and healthcare accessibility.",
+         "name": "Online Health Care ",
+         "description": "Developed and implemented secure, compliant features, enabling remote consultations, secure medical data sharing, e-prescriptions, and remote monitoring. These essential functionalities significantly reduced the need for in-person visits, enhancing overall patient experience and healthcare accessibility.",
          "technology": [
-            "Vue JS"
+            "ASP.NET MVC",
+            "Web API 2",
+            "JavaScript",
+            "MSSQL",
+            "Redis",
+            "Google Map Service"
          ]
       },
       {
