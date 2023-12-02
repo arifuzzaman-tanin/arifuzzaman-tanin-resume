@@ -189,12 +189,12 @@
          "name": "Online Health Care ",
          "description": "Developed and implemented secure, compliant features, enabling remote consultations, secure medical data sharing, e-prescriptions, and remote monitoring. These essential functionalities significantly reduced the need for in-person visits, enhancing overall patient experience and healthcare accessibility.",
          "technology": [
-            "ASP.NET MVC",
-            "Web API 2",
+            ".NET Core API",
+            "Microservice",
+            "Azure",
             "JavaScript",
             "MSSQL",
-            "Redis",
-            "Google Map Service"
+            "Redis"
          ]
       },
       {
