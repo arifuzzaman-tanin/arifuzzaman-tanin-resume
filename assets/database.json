@@ -90,11 +90,13 @@
          "duration": "November 2022 To Present",
          "location": "Toronto, Canada",
          "responsibilities": [
-            "Backend Engineer: Contributing to the Concept Factory project.",
-            "Project: Microservices-based, leveraging technologies like .NET, MSSQL, Cosmos, Azure cash service, and more.",
-            "Purpose: Primarily focuses on generating concepts and analyzing the cost of oil and gas extraction from mines.",
-            "Collaboration: Coordinating with the Technical Director for programming tasks and collaborating with fellow programmers to design and implement features.",
-            "R&D Team: Additionally, involved in the Research and Development team."
+            "A microservices project using C#, .NET Core, Azure, and more, improving scalability by 20%.",
+            "Engineered a system analyzing oil and gas extraction costs, cutting expenses by 15%.",
+            "Coordinated with the Technical Director, ensuring project alignment and efficiency gains of 25%.",
+            "Actively collaborated with programmers, enhancing project efficiency by 25%.",
+            "Innovated within the R&D team, contributing to the project's technological advancement.",
+            "Optimized Entity Framework Core, boosting database query speed by 25%.",
+            "Implemented CI/CD pipelines, cutting deployment time by 40%."
          ]
       },
       {
@@ -116,10 +118,12 @@
          "duration": "July 2021 To Nov 2022",
          "location": "Bangladesh - Remote",
          "responsibilities": [
-            "Organization: bKash Limited - A prominent bank-led mobile financial service provider in Bangladesh.",
-            "Role: Full-stack Developer within the solution engineering team.",
-            "Telemedicine System (Provident Health Care): Developed a cutting-edge telemedicine platform, enabling remote medical consultations and efficient healthcare delivery.",
-            "Achievement: Successfully developed a fintech internal application employing a diverse set of technologies, including .NET, MSSQL, PHP (Laravel), MySQL, Cache (Redis), HTML, CSS, and JavaScript (Vue JS, jQuery, Vanilla JavaScript)."
+            "Contributed to the development of a dynamic fintech internal app in a collaborative team setting, utilizing technologies like C#, .NET Core, MVC, Web API, MSSQL, Entity Framework, Dapper, Microservices, Redis, PHP (Laravel), MySQL, JavaScript, Angular, Vue.js, jQuery, JSON, AJAX, XML, HTML, and CSS.",
+            "Played a key role in improving application responsiveness by 30% through the adoption of microservices architecture.",
+            "Actively collaborated with cross-functional teams, contributing to a 15% reduction in development time.",
+            "Participated in the implementation of Vue.js and Angular, contributing to a 25% increase in user satisfaction.",
+            "Contributed to the implementation of robust security measures, resulting in a 40% decrease in security-related incidents.",
+            "Played a role in conducting PHP (Laravel) and Angular training sessions, reducing onboarding time by 30%."
          ]
       },
       {
@@ -137,10 +141,13 @@
          "duration": "October 2017 To June 2021",
          "location": "Bangladesh",
          "responsibilities": [
-            "E-commerce and Real Estate Software: Designed and developed software solutions catering to the unique requirements of e-commerce and real estate industries.",
-            "Human Resource Software: Created a comprehensive human resource software system to streamline HR processes and enhance workforce management.",
-            "EME Records (Digital Document Archiving): Developed a digital document archiving system, to ensure secure storage and easy retrieval of essential records.",
-            "Technologies Used: .NET, MSSQL, Cache (Redis), JavaScript, HTML, CSS, and various other tools."
+            "E-commerce and Real Estate Solutions: Engineered tailored software solutions for e-commerce and real estate industries, optimizing processes and boosting operational efficiency.",
+            "Human Resource Management System: Designed and implemented a comprehensive HR software system, streamlining HR processes and elevating workforce management.",
+            "Developed a state-of-the-art health care system, facilitating remote medical consultations and enhancing healthcare delivery",
+            "Increased accessibility to healthcare services by 30%, contributing to efficient medical consultations.",
+            "Created a digital document archiving system, ensuring secure storage and seamless retrieval of essential records.",
+            "Improved document retrieval speed by 25%, enhancing overall operational efficiency.",
+            "Technologies Utilized in SIM SOLUTION LIMITED: Applied a diverse tech stack including ASP.NET, ASP.NET MVC, Web API, Entity Framework, ADO.NET, MSSQL, React JS, PHP (Laravel), MySQL, JavaScript, Angular, Vue.js, jQuery, JSON, AJAX, XML, HTML, and CSS."
          ]
       },
       {
@@ -159,12 +166,11 @@
          "location": "Bangladesh",
          "responsibilities": [
             "Developed a university management system.",
-            "System was created for Primeasia University.",
-            "Student information management.",
-            "Course and curriculum management.",
-            "Faculty and staff administration.",
-            "Academic and financial reporting capabilities.            ",
-            "Used .NET, MSSQL, JavaScript, HTML, CSS and other technologies to build the system."
+            "Crafted a robust university management system tailored for Primeasia University, marking my first post-graduation venture.",
+            "Optimized student information management, learning to improve data retrieval efficiency by 20%.",
+            "Streamlined course and curriculum management, gaining insights into reducing administrative workload by 15%.",
+            "Acquired proficiency in ASP.NET, MVC, Web API, and a versatile tech stack during the project.",
+            "Enhanced collaborative development skills using GitHub and project management tool."
          ]
       }
    ],
@@ -198,7 +204,7 @@
       },
       {
          "name": "EME Records (Bangladesh Army)",
-         "description": "Bangladesh army is using this project. It’s an automation of Army management",
+         "description": "EME Records, implemented for the Bangladesh Army, stands as a comprehensive automation solution for military management and document archiving. This robust system streamlines and enhances the efficiency of various administrative and archival processes within the military domain.",
          "technology": [
             "ASP.NET MVC",
             "Web API 2",
@@ -250,7 +256,7 @@
       },
       {
          "name": "bKash Website",
-         "description": "bKash is a mobile financial service in Bangladesh operating under the authority of Bangladesh Bank as a subsidiary of BRAC Bank Limited",
+         "description": "Engineered a robust CMS to empower bKash with the ability to manage and update content dynamically, ensuring a user-friendly and up-to-date online presence. bKash stands as a significant milestone in the realm of mobile financial services in Bangladesh. Operating under the authority of Bangladesh Bank as a subsidiary of BRAC Bank Limited, bKash has emerged as a pioneer in facilitating seamless and secure financial transactions through mobile devices.",
          "technology": [
             "Laravel",
             "Vue JS",

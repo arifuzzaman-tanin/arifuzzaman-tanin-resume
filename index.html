@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="https://github.com/arifuzzaman-tanin" name="generator">
     <meta name="ompagename" content="https://www.linkedin.com/in/tanin-arifuzzaman/">
-    <meta name="description" content="I am a seasoned Software Engineer with over 6.5 years of experience building complex applications for local and international clients. My expertise includes C# (ASP.NET, ASP.NET Core, Entity Framework), PHP (Laravel, Eloquent), API development (Restful, Rest API), JavaScript (Vue.js, jQuery, Angular), and databases (MSSQL, MySQL). I excel in Git version control, Docker, Azure, AWS, design patterns, HTML/CSS, project management, competitive programming, and microservices. With a strong background in non-tech team collaboration, requirement gathering, and leading development teams, I specialize in creating effective, user-friendly, secure, and efficient systems for businesses of all sizes. Let's bring your vision to life.">
+    <meta name="description"
+        content="I am a seasoned Software Engineer with over 6.5 years of experience building complex applications for local and international clients. My expertise includes C# (ASP.NET, ASP.NET Core, Entity Framework), PHP (Laravel, Eloquent), API development (Restful, Rest API), JavaScript (Vue.js, jQuery, Angular), and databases (MSSQL, MySQL). I excel in Git version control, Docker, Azure, AWS, design patterns, HTML/CSS, project management, competitive programming, and microservices. With a strong background in non-tech team collaboration, requirement gathering, and leading development teams, I specialize in creating effective, user-friendly, secure, and efficient systems for businesses of all sizes. Let's bring your vision to life.">
 
-    <meta name="keywords" content="Software Engineer, 6.5+ Years Experience, Complex Application Development, Bachelor's in Software Engineering, C# Developer, ASP.NET, ASP.NET Core, Entity Framework, PHP Developer, Laravel, Eloquent, API Developer, Restful, Rest API, JavaScript Developer, Vue.js, jQuery, Angular, Database Expert, MSSQL, MySQL, Git Version Control, Docker Specialist, Azure, AWS Cloud Services, Design Pattern Expert, HTML, CSS, Project Management, Competitive Programming Enthusiast, Redis Cache Implementation, Microservices Architect, Non-Tech Team Collaboration, Requirement Gathering, Architecture Design, Team Leadership, Application Deployment, Effective System Design, User-Friendly Software, Secure Application Development, Efficient Software Solutions, Application Analysis and Design, Big and Small Company Solutions, Software Development Consultant">
+    <meta name="keywords"
+        content="Software Engineer, 6.5+ Years Experience, Complex Application Development, Bachelor's in Software Engineering, C# Developer, ASP.NET, ASP.NET Core, Entity Framework, PHP Developer, Laravel, Eloquent, API Developer, Restful, Rest API, JavaScript Developer, Vue.js, jQuery, Angular, Database Expert, MSSQL, MySQL, Git Version Control, Docker Specialist, Azure, AWS Cloud Services, Design Pattern Expert, HTML, CSS, Project Management, Competitive Programming Enthusiast, Redis Cache Implementation, Microservices Architect, Non-Tech Team Collaboration, Requirement Gathering, Architecture Design, Team Leadership, Application Deployment, Effective System Design, User-Friendly Software, Secure Application Development, Efficient Software Solutions, Application Analysis and Design, Big and Small Company Solutions, Software Development Consultant">
 
     <meta name="author" content="arifuzzaman tanin">
     <title>
-        I am a Software engineer with 6.5+ years of experience building complex applications for local and international clients. I did my bachelor’s in software engineering.  I am proficient in
+        Results-driven Full-stack Software Engineer with over 6.5 years of experience, specializing in diverse projects
+        spanning fintech, oil & gas, e-commerce, telemedicine, and education. Proven expertise in leveraging
+        cutting-edge technologies such as C#, .NET Core, Azure, and various front-end frameworks to deliver innovative
+        solutions. Adept at collaborating across teams, contributing to R&D initiatives, and consistently exceeding
+        project expectations. I am proficient in
+
         ☑ C# (ASP.NET, ASP.NET Core, Entity Framework)
         ☑ PHP (Laravel, Eloquent)
         ☑ API (Restful, Rest API)
@@ -20,6 +27,9 @@
         ☑ Database (MSSQL, MySQL)
         ☑ Version Control (Git)
         ☑ Docker
+        ☑ CI/CD
+        ☑ SOLID
+        ☑ SDLC
         ☑ Azure, AWS
         ☑ Design Pattern
         ☑ HTML, CSS
@@ -27,7 +37,9 @@
         ☑ Competitive Programming
         ☑ Cache (Redis)
         ☑ Microservices
-        I have experience working with non-tech teams, requirement capturing, direct communication with clients, designing architecture, developing, leading teams, and deploying applications. I can analyze and design applications for big or small companies. I want to provide my clients with an EFFECTIVE, USER-FRIENDLY, SECURE, and EFFICIENT system for their business.
+        ☑ Agile methodologies
+        I have experience working with non-tech teams, requirement capturing, direct communication with clients,
+        designing architecture, deploying applications, and leading teams.
     </title>
     <link rel="canonical" href="https://aztanin.github.io/arifuzzaman/">
     <link href="./assets/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -59,7 +71,7 @@
                     <div class="card mt-3 rounded-0">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-8">
+                                <div class="col-md-12">
                                     <ul class="ul-remove-bullets">
                                         <li>
                                             <p class="card-title text-dark fw-bold">{{ profile.name }}</p>
@@ -74,10 +86,13 @@
                                             +1 (437) 460-9212 (WhatsApp)
                                         </li>
                                     </ul>
-                                    <p class="mt-3 text-justify ">{{ profile.bio }}</p>
-                                </div>
-                                <div class="col-md-4 text-center">
-                                    <img v-bind:src="profile.avatar_url" class="img-fluid" height="200" width="200" />
+                                    <p class="mt-3 text-justify ">
+                                        Results-driven Full-stack Software Engineer with over 6.5 years of experience, specializing in diverse projects
+                                        spanning fintech, oil & gas, e-commerce, telemedicine, and education. Proven expertise in leveraging
+                                        cutting-edge technologies such as C#, .NET Core, Azure, and various front-end frameworks to deliver innovative
+                                        solutions. Adept at collaborating across teams, contributing to R&D initiatives, and consistently exceeding
+                                        project expectations.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -222,7 +237,8 @@
                                                         <small class="text-muted">Software Engineer</small>
                                                     </p>
                                                     <div class="btn-group mt-0 pt-0 mb-0 pb-0 gap-2">
-                                                        <a class="btn btn-sm btn-dark" :href="profilePage+ '?param=' +item.login">Profile</a>
+                                                        <a class="btn btn-sm btn-dark"
+                                                            :href="profilePage+ '?param=' +item.login">Profile</a>
                                                         <a class="btn btn-sm btn-dark" :href="item.html_url">Github</a>
                                                     </div>
                                                 </div>
@@ -296,7 +312,7 @@
                 isLoading: false,
                 gitHubUserName: 'arifuzzaman-tanin',
                 database: [],
-                profilePage:'profile.html'
+                profilePage: 'profile.html'
             },
             methods: {
                 loadProfile: function () {
