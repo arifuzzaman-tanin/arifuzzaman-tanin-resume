@@ -77,7 +77,7 @@
             "contact": [
                {
                   "website": "https://www.wipro.com/",
-                  "logo": "https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/skillquotient-logo.png"
+                  "logo": "https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/261ff0a1f6458b2531885d4823bc8def19ab749a/assets/images/wipro.svg"
                },
                {
                   "website": "https://www.petronas.com/",
@@ -141,13 +141,13 @@
          "duration": "October 2017 To June 2021",
          "location": "Bangladesh",
          "responsibilities": [
-            "E-commerce and Real Estate Solutions: Engineered tailored software solutions for e-commerce and real estate industries, optimizing processes and boosting operational efficiency.",
-            "Human Resource Management System: Designed and implemented a comprehensive HR software system, streamlining HR processes and elevating workforce management.",
-            "Developed a state-of-the-art health care system, facilitating remote medical consultations and enhancing healthcare delivery",
+            "Engineered tailored software solutions for e-commerce and real estate industries, optimizing processes and boosting operational efficiency.",
+            "Designed and implemented a comprehensive HR software system, streamlining HR processes and elevating workforce management.",
+            "Developed a state-of-the-art online health care system, facilitating remote medical consultations and enhancing healthcare delivery.",
             "Increased accessibility to healthcare services by 30%, contributing to efficient medical consultations.",
             "Created a digital document archiving system, ensuring secure storage and seamless retrieval of essential records.",
             "Improved document retrieval speed by 25%, enhancing overall operational efficiency.",
-            "Technologies Utilized in SIM SOLUTION LIMITED: Applied a diverse tech stack including ASP.NET, ASP.NET MVC, Web API, Entity Framework, ADO.NET, MSSQL, React JS, PHP (Laravel), MySQL, JavaScript, Angular, Vue.js, jQuery, JSON, AJAX, XML, HTML, and CSS."
+            "Applied a diverse tech stack including ASP.NET, ASP.NET MVC, Web API, Entity Framework, ADO.NET, MSSQL, React JS, PHP (Laravel), MySQL, JavaScript, Angular, Vue.js, jQuery, JSON, AJAX, XML, HTML, CSS, and Azure."
          ]
       },
       {
