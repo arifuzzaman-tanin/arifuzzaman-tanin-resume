@@ -30,8 +30,8 @@
          "achieved": "80"
       },
       {
-         "name": "JavaScript(Vue.js, JQuery, Angular)",
-         "achieved": "70"
+         "name": "JavaScript(Vue.js, JQuery, Angular), Blazor",
+         "achieved": "80"
       },
       {
          "name": "Docker",
@@ -47,11 +47,11 @@
       },
       {
          "name": "Design Pattern",
-         "achieved": "70"
+         "achieved": "80"
       },
       {
          "name": "HTML, CSS",
-         "achieved": "65"
+         "achieved": "80"
       },
       {
          "name": "Project Management",
@@ -73,10 +73,10 @@
    "workExperiences": [
       {
          "company": {
-            "name": "SKILL QUOTIENT RESOURCES SDN BHD (ON BOARDED AT PETRONAS - IT’S A LARGEST OIL & GAS COMPANY IN MALAYSIA)",
+            "name": "Wipro Limited (ON BOARDED AT PETRONAS - IT’S A LARGEST OIL & GAS COMPANY IN MALAYSIA)",
             "contact": [
                {
-                  "website": "https://skillquotient.net/",
+                  "website": "https://www.wipro.com/",
                   "logo": "https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/skillquotient-logo.png"
                },
                {
@@ -88,7 +88,7 @@
          "position": "Software Engineer",
          "jobType": "Contractual",
          "duration": "November 2022 To Present",
-         "location": "Toronto, Canada",
+         "location": "Mississauga, Ontario, Canada",
          "responsibilities": [
             "A microservices project using C#, .NET Core, Azure, and more, improving scalability by 20%.",
             "Engineered a system analyzing oil and gas extraction costs, cutting expenses by 15%.",
