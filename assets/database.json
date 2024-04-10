@@ -73,12 +73,8 @@
    "workExperiences": [
       {
          "company": {
-            "name": "Wipro Limited (ON BOARDED AT PETRONAS - IT’S A LARGEST OIL & GAS COMPANY IN MALAYSIA)",
+            "name": "PETRONAS - IT’S A LARGEST OIL & GAS COMPANY IN CANADA & MALAYSIA)",
             "contact": [
-               {
-                  "website": "https://www.wipro.com/",
-                  "logo": "https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/wipro.svg"
-               },
                {
                   "website": "https://www.petronas.com/",
                   "logo": "https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/petronas-logo.jpg"
@@ -86,9 +82,9 @@
             ]
          },
          "position": "Software Engineer",
-         "jobType": "Contractual",
+         "jobType": "Fulltime",
          "duration": "November 2022 To Present",
-         "location": "Mississauga, Ontario, Canada",
+         "location": "Toronto, Ontario, Canada",
          "responsibilities": [
             "A microservices project using C#, .NET Core, Azure, and more, improving scalability by 20%.",
             "Engineered a system analyzing oil and gas extraction costs, cutting expenses by 15%.",
