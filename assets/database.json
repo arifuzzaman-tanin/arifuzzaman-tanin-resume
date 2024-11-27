@@ -22,59 +22,115 @@
    "skills": [
       {
          "name": "C#(ASP.NET, ASP.NET Core)",
-         "achieved": "80"
+         "achieved": "80",
+         "title": ".NET",
+         "icon": "DotNetIcon",
+         "isHidden": false
       },
       {
          "name": "Database(MSSQL, MySQL, Postgres, Oracle, NoSQL)",
-         "achieved": "80"
+         "achieved": "80",
+         "title": "Database",
+         "icon": "DatabaseIcon",
+         "isHidden": false
       },
       {
          "name": "PHP(Laravel, Eloquent)",
-         "achieved": "80"
+         "achieved": "80",
+         "title": "PHP",
+         "icon": "PhpIcon",
+         "isHidden": false
       },
       {
          "name": "MVC, API(Restfull, Rest API)",
-         "achieved": "80"
+         "achieved": "80",
+         "title": "Rest API",
+         "icon": "RestApiIcon",
+         "isHidden": false
       },
       {
          "name": "JavaScript(React, Vue.js, JQuery, Angular), Blazor",
-         "achieved": "80"
+         "achieved": "80",
+         "title": "JavaScript",
+         "icon": "JavaScriptIcon",
+         "isHidden": false
       },
       {
          "name": "Docker",
-         "achieved": "60"
+         "achieved": "60",
+         "title": "Docker",
+         "icon": "DockerIcon",
+         "isHidden": false
       },
       {
-         "name": "Azure, AWS",
-         "achieved": "60"
+         "name": "Azure",
+         "achieved": "60",
+         "title": "Azure",
+         "icon": "AzureIcon",
+         "isHidden": false
+      },
+      {
+         "name": "AWS",
+         "achieved": "60",
+         "title": "AWS",
+         "icon": "AwsIcon",
+         "isHidden": false
       },
       {
          "name": "Version Control(Git)",
-         "achieved": "80"
+         "achieved": "80",
+         "title": "Git",
+         "icon": "GitIcon",
+         "isHidden": false
       },
       {
          "name": "Design Pattern",
-         "achieved": "80"
+         "achieved": "80",
+         "title": "Design Pattern",
+         "icon": "NoIcon",
+         "isHidden": true
       },
       {
-         "name": "HTML, CSS",
-         "achieved": "80"
+         "name": "HTML",
+         "achieved": "80",
+         "title": "HTML",
+         "icon": "HtmlIcon",
+         "isHidden": false
+      },
+      {
+         "name": "CSS",
+         "achieved": "80",
+         "title": "CSS",
+         "icon": "CssIcon",
+         "isHidden": false
       },
       {
          "name": "Project Management",
-         "achieved": "80"
+         "achieved": "80",
+         "title": "PM",
+         "icon": "PmIcon",
+         "isHidden": true
       },
       {
          "name": "Competitive Programming",
-         "achieved": "80"
+         "achieved": "80",
+         "title": "CM",
+         "icon": "CmIcon",
+         "isHidden": true
       },
       {
          "name": "Cache(Redis)",
-         "achieved": "80"
+         "achieved": "80",
+         "title": "Cache",
+         "icon": "CacheIcon",
+         "isHidden": false
       },
       {
          "name": "Microservices",
-         "achieved": "80"
+         "achieved": "80",
+         "title": "Microservices",
+         "icon": "MicroservicesIcon",
+         "isHidden": false
       }
    ],
    "workExperiences": [
