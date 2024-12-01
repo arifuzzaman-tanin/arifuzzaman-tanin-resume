@@ -126,6 +126,13 @@
          "isHidden": false
       },
       {
+         "name": "Elasticsearch",
+         "achieved": "80",
+         "title": "Elasticsearch",
+         "icon": "ElasticsearchIcon",
+         "isHidden": false
+      },
+      {
          "name": "Microservices",
          "achieved": "80",
          "title": "Microservices",
