@@ -28,7 +28,7 @@
          "isHidden": false
       },
       {
-         "name": "Database(MSSQL, MySQL, Postgres, Oracle, NoSQL)",
+         "name": "Database(MSSQL, MySQL, NoSQL)",
          "achieved": "80",
          "title": "Database",
          "icon": "DatabaseIcon",
@@ -49,7 +49,7 @@
          "isHidden": false
       },
       {
-         "name": "JavaScript(React, Vue.js, JQuery, Angular), Blazor",
+         "name": "JavaScript(React, Vue.js, JQuery, Next)",
          "achieved": "80",
          "title": "JavaScript",
          "icon": "JavaScriptIcon",
