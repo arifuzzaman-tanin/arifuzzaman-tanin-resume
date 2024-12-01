@@ -5,7 +5,7 @@
       "role": "Software Engineer",
       "phone": "+1 (437) 460-9212",
       "location": "London, ON",
-      "image":"https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/refs/heads/main/assets/images/tanin.webp",
+      "image": "https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/refs/heads/main/assets/images/tanin.webp",
       "linkedin": "https://www.linkedin.com/in/tanin-arifuzzaman",
       "github": "https://github.com/arifuzzaman-tanin",
       "about": "I am a results-driven Full Stack Developer with 9 years of experience, specializing in .NET technologies (.NET Core, ASP.NET MVC, Web API, Azure, gRPC), WCF, Entity Framework, and CI/CD using Azure DevOps. Skilled in frontend frameworks (Vue.js, Angular, React), secure coding, microservices, and distributed architectures. I emphasize secure development practices, shift-left testing, and OWASP guidelines (OAuth, OpenID Connect, SAML). I excel in application development, legacy IT integration, and agile practices."
@@ -327,6 +327,50 @@
             "MySQL",
             "Redis"
          ]
+      }
+   ],
+   "blogs": [
+      {
+         "title": "Improving Performance and Managing Big Data with Database Partitioning",
+         "body": "As businesses collect more and more data, managing and processing large databases can become challenging. One solution to this problem is database partitioning.",
+         "readingTime": 3,
+         "link": "https://www.linkedin.com/pulse/improving-performance-managing-big-data-database-arifuzzaman-tanin-dwwyc",
+         "image": "https://media.licdn.com/dms/image/v2/D5612AQFPiI0bvgrS-w/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1727999559177?e=1738800000&v=beta&t=0KTh_X8zL9M1QBcvwmNGIPBYJFIRUyWMbEzAEfyWQcU"
+      },
+      {
+         "title": "emporal Tables in SQL Server",
+         "body": "Temporal tables, introduced in SQL Server 2016, provide a way to track changes to data over time. This powerful feature, also known as system-versioned temporal tables, enables automatic history tracking of data changes,",
+         "readingTime": 3,
+         "link": "https://www.linkedin.com/pulse/temporal-tables-sql-server-arifuzzaman-tanin-0f9lf",
+         "image": "https://media.licdn.com/dms/image/v2/D4D12AQFVLmRjFZ4l7w/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1721355349868?e=1738800000&v=beta&t=dFKztC9cTkMrg2yl4iEosTn7STXXXVTtevQfpZQ4HWY"
+      },
+      {
+         "title": "Cache-aside pattern",
+         "body": "In the software industry, efficiency is the name of the game. When it comes to handling vast amounts of data and ensuring speedy access to it, developers often turn to caching techniques. One such technique, the cache-aside pattern",
+         "readingTime": 3,
+         "link": "https://www.linkedin.com/pulse/cache-aside-pattern-arifuzzaman-tanin-dbx1f",
+         "image": "https://media.licdn.com/dms/image/v2/D4D12AQFN9hdm5sLM6g/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1715844877649?e=1738800000&v=beta&t=SG1bfYFGR5xlfhkVqfLoC1Dt-tgQAItPQGiYrG4utpg"
+      },
+      {
+         "title": "Organizing Data Using Records in C#",
+         "body": "C# 9.0 introduces a powerful new feature called records (reference type) that revolutionizes the way developers handle immutable data types. Records are succinct, immutable data types that are designed to",
+         "readingTime": 2,
+         "link": "https://www.linkedin.com/pulse/organizing-data-using-records-c-arifuzzaman-tanin-cgfoc/",
+         "image": "https://media.licdn.com/dms/image/v2/D5612AQFPs7Wc-q9NlA/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1715165083320?e=1738800000&v=beta&t=b22eut9pjlxun1CczrbdNpjVYMC85J1pm6gTFiq_MOQ"
+      },
+      {
+         "title": "Event Sourcing Architecture",
+         "body": "Event sourcing might sound like something only computer wizards understand, but it’s actually a pretty neat concept that can help make sense of how data is managed in software systems.",
+         "readingTime": 4,
+         "link": "https://www.linkedin.com/pulse/event-sourcing-architecture-arifuzzaman-tanin-zj86c/",
+         "image": "https://media.licdn.com/dms/image/v2/D5612AQFNlDcOWfFaZg/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1713839894707?e=1738800000&v=beta&t=XePm63miS9Ae7ZSumDR7-MHOtqj83J0fheyx36sgKkY"
+      },
+      {
+         "title": "CQRS and Modern Applications",
+         "body": "There are various architectural patterns and design principles to help developers build efficient and scalable applications. One such pattern is Command Query Responsibility Segregation (CQRS).",
+         "readingTime": 3,
+         "link": "https://www.linkedin.com/pulse/cqrs-modern-applications-arifuzzaman-tanin-eczoc/",
+         "image": "https://media.licdn.com/dms/image/v2/D5612AQFwzm5I5nisdA/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1713729357488?e=1738800000&v=beta&t=Z3v0n58DuJ_ArFylCaZulpaA3uN8nRab9N5cbg2tH64"
       }
    ]
 }
