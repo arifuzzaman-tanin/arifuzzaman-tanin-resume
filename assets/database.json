@@ -42,7 +42,7 @@
          "isHidden": false
       },
       {
-         "name": "MVC, API(Restfull, Rest API)",
+         "name": "MVC, API(Restfull, Rest API), gRPC",
          "achieved": "80",
          "title": "Rest API",
          "icon": "RestApiIcon",
@@ -87,8 +87,8 @@
          "name": "Design Pattern",
          "achieved": "80",
          "title": "Design Pattern",
-         "icon": "NoIcon",
-         "isHidden": true
+         "icon": "DesignPatternIcon",
+         "isHidden": false
       },
       {
          "name": "HTML",
