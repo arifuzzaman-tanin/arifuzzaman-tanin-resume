@@ -143,6 +143,30 @@
    "workExperiences": [
       {
          "company": {
+            "name": "ZONDA",
+            "contact": [
+               {
+                  "website": "https://zondahome.com/",
+                  "logo": "https://raw.githubusercontent.com/arifuzzaman-tanin/arifuzzaman-tanin-resume/main/assets/images/petronas-logo.jpg"
+               }
+            ]
+         },
+         "position": "Software Engineer",
+         "jobType": "Fulltime",
+         "duration": "July 2023 To Present",
+         "location": "Toronto, Ontario, Canada",
+         "responsibilities": [
+            "Developed a high-performance property listing platform using C#, .NET Core, AWS, gRPC, and modern front-end frameworks such as React, Next.js, and Angular, achieving a 15% increase in scalability and reliability.",
+            "Implemented gRPC and tRPC protocols for seamless inter-service communication, reducing API response times by 25% and enhancing system efficiency.",
+            "Integrated Elasticsearch to power intelligent, real-time property search and filtering, boosting query performance by 30% and improving user satisfaction.",
+            "Designed and delivered dynamic, responsive user interfaces for property discovery and management with React and Next.js, driving a 25% improvement in user engagement.",
+            "Streamlined development workflows by optimizing Angular-based components, enabling faster feature delivery and reducing project timelines by 15%.",
+            "Developed advanced analytics solutions to assess real estate market trends and property valuations, enhancing decision-making precision by 20%.",
+            "Optimized Entity Framework Core queries to deliver lightning-fast database operations, reducing response times for property searches by 20% and improving overall platform performance."
+         ]
+      },
+      {
+         "company": {
             "name": "PETRONAS",
             "contact": [
                {
@@ -153,7 +177,7 @@
          },
          "position": "Software Engineer",
          "jobType": "Fulltime",
-         "duration": "November 2022 To Present",
+         "duration": "November 2022 To July 2023",
          "location": "Toronto, Ontario, Canada",
          "responsibilities": [
             "A microservices project using C#, .NET Core, Azure, and more, improving scalability by 20%.",
